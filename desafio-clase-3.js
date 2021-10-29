@@ -1,5 +1,5 @@
-let alumno;
-let alumnoModificado;
+let alumno ="";
+let alumnoModificado="";
 
 alert("Crearemos un listado de tus mejores 5 alumnos"+"\n"+"A continuacion ingrese sus Nombres:")
 
@@ -12,13 +12,13 @@ alert(alumno);
 
 let modificacion = confirm("Usted puede modificar esta lista en cualquier momento\n"+"Desea modificarla?")
 
-while(modificacion){
-     
-    for(let i=1; i < 6; i++){
+while (modificacion){
+      for(let i=1; i < 6; i++){
         alumnoModificado += prompt("INGRESE SUS NOMBRES").toUpperCase() + "\n";
   }
 
-guardar = confirm("¿Desea Guardar su lista?");
+let guardar = confirm("¿Desea Guardar su lista?");
+
 if (guardar){ 
     alert(alumnoModificado)
     break;
@@ -26,6 +26,7 @@ if (guardar){
     alert(alumno);
 }
 }
+
 
 
 
