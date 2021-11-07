@@ -1,4 +1,3 @@
-let cliente = "";
 let dia = "";
 let horarios = "";
 let servicios = "";
@@ -18,7 +17,6 @@ class Cliente {
         this.mail = prompt("Ingresa tu e-mail");
     }
 }
-
 let cliente1;
 
 
@@ -141,7 +139,5 @@ bienvenida();
 eleccionTurno();
 eleccionServicio();
 descuento();
-
 alert(`Te vas a realizar ${servicios} El total es $${total}`);
 
-console.log(cliente1)
