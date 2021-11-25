@@ -6,10 +6,13 @@ header, main {
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
 }
  .imagen-main{
 padding: 5%;
- width: 50%;
+ width: 35rem;
  filter: drop-shadow(8px 8px 12px rgba(0, 0, 0, 0.6));
 }
 
@@ -21,9 +24,18 @@ padding: 5%;
 }
 #servicios {
     background-color: #F8CADF;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
     
     
+}
+.container-fluid{
+    max-width: 35rem;
+}
+h3{
+    font-size: 1rem;
+    text-align: center;
 }
